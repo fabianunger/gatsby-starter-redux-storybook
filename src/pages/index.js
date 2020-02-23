@@ -6,6 +6,7 @@ import Image from '../components/Image';
 import SEO from '../components/Seo';
 import Heading from '../components/Heading';
 import Text from '../components/Text';
+import Counter from '../components/Counter';
 
 const Page = styled.div`
   width: 100%;
@@ -31,9 +32,10 @@ const IndexPage = () => (
         <SEO title={'Home'}/>
         <Page>
             <Image/>
+
             <Heading as={'h1'} content={'+ Redux + Storybook'}/>
             <Text content={'Starter'}/>
-
+            <Counter/>
         </Page>
     </Layout>
 );

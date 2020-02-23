@@ -1,25 +1,25 @@
 import types from "../types"
 
 const initialState = {
-  items: 7,
+  amount: 7,
 }
 export default (state = initialState, action) => {
 
   switch (action.type) {
     case types.ADD: {
       const { number } = action
-      const newResult = state.items + number
+      const newResult = state.amount + number
       return {
         ...state,
-        items: newResult
+        amount: newResult
       }
     }
     case types.SUBTRACT: {
       const { number } = action
-      const newResult = state.items - number
+      const newResult = state.amount - number
       return {
         ...state,
-        items: newResult
+        amount: newResult
       }
     }
     default: {

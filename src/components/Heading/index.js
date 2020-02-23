@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HeadingStyles from './index.style';
+import { HeadingWrapper } from './index.style';
 
 const Heading = ({ content, ...props }) => (
-    <HeadingStyles {...props}>{content}</HeadingStyles>
+    <HeadingWrapper {...props}>{content}</HeadingWrapper>
 );
 
 export default Heading;

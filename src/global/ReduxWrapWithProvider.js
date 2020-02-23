@@ -12,7 +12,7 @@ export default ({ element }) => {
     key: "root",
     storage,
     blacklist: [
-      // 'count',
+      'count',
     ],
   }
 

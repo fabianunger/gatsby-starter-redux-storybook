@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import TextStyles from './index.style';
+import { TextWrapper } from './index.style';
 
 const Text = ({ content, ...props }) => (
-  <TextStyles {...props}>{content}</TextStyles>
+  <TextWrapper {...props}>{content}</TextWrapper>
 );
 
 export default Text;

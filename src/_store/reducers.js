@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import cart from './state_count/countReducer';
+import count from './state_count/countReducer';
 
 export default combineReducers({
-  cart,
+  count,
 });
