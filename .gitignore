@@ -7,3 +7,6 @@ yarn-error.log
 /public
 /storybook
 .DS_Store
+
+/.idea/
+.idea/workspace.xml
