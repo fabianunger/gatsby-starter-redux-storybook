@@ -3,6 +3,9 @@ import styled from 'styled-components';
 
 import Layout from '../global/Layout';
 import Image from '../components/Image';
+import SEO from '../components/Seo';
+import Heading from '../components/Heading';
+import Text from '../components/Text';
 
 const Page = styled.div`
   width: 100%;
@@ -14,11 +17,6 @@ const Page = styled.div`
   align-items: center;
 `;
 
-const Heading = styled.h1`
-  font-size: 24px;
-  color: #555;
-  margin-top: 60px;
-`;
 
 const Label = styled.p`
   font-size: 14px;
@@ -29,13 +27,15 @@ const Label = styled.p`
 `;
 
 const IndexPage = () => (
-  <Layout>
-    <Page>
-      <Image />
-      <Heading>+ Redux + Storybook</Heading>
-      <Label>Starter</Label>
-    </Page>
-  </Layout>
+    <Layout>
+        <SEO title={'Home'}/>
+        <Page>
+            <Image/>
+            <Heading as={'h1'} content={'+ Redux + Storybook'}/>
+            <Text content={'Starter'}/>
+
+        </Page>
+    </Layout>
 );
 
 export default IndexPage;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import SVG from '../../assets/images/glogo.png';
+import Logo from '../../assets/images/glogo.png';
 
 const Img = styled.img`
   width: 100%;
@@ -9,7 +9,7 @@ const Img = styled.img`
 `;
 
 const Image = () => (
-  <Img src={SVG} alt="GatsbyJS with Redux and Storybook" />
+  <Img src={Logo} alt="GatsbyJS with Redux and Storybook" />
 );
 
 export default Image;
