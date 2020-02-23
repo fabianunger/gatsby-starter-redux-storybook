@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Storybook Starter',
+    title: `Gatsby Starter Redux Storybook`,
+    description: `Everything you need to get started`,
+    author: `Fabian Unger`,
   },
   plugins: [
     {

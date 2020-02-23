@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Image from './index';
+import Text from './index';
 
-storiesOf('Image', module)
+storiesOf('Text', module)
   .add('Default', () => (
-    <Image />
+    <Text content={"Lorem ipsum doloret mitsum"}/>
   ));

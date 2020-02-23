@@ -1,15 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-
-import SVG from '../../assets/images/glogo.png';
-
-const Img = styled.img`
-  width: 100%;
-  max-width: 600px;
-`;
+import Logo from '../../assets/images/glogo.png';
+import { ImageWrapper } from './index.style';
 
 const Image = () => (
-  <Img src={SVG} alt="GatsbyJS with Redux and Storybook" />
+    <ImageWrapper src={Logo} alt="GatsbyJS with Redux and Storybook"/>
 );
 
 export default Image;
