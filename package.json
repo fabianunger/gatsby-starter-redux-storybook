@@ -14,8 +14,7 @@
     "storybook",
     "eslint",
     "styled-components",
-    "reset-css",
-    "netlify"
+    "reset-css"
   ],
   "scripts": {
     "start": "run-p start:**",
@@ -46,8 +45,7 @@
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "styled-components": "^4.3.2",
-    "styled-reset-advanced": "^1.0.3",
-    "styled-system": "^5.1.5"
+    "styled-reset-advanced": "^1.0.3"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.11",
