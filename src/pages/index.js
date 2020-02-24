@@ -14,7 +14,7 @@ const IndexPage = () => (
         <SEO title={'Home'}/>
         <Page>
             <Image/>
-            <Heading as={'h1'} content={'+ Redux + Storybook'}/>
+            <Heading as={'h1'} content={'gatsby-starter-redux-storybook'}/>
             <Text content={'Starter'}/>
             <Counter/>
         </Page>

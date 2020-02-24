@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/images/glogo.png';
+import Logo from '../../assets/images/gatsby-starter-redux-storybook-bg.png';
 import { ImageWrapper } from './index.style';
 
 const Image = () => (
