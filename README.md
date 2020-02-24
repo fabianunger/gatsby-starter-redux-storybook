@@ -10,7 +10,7 @@
    <p align="center">Gatsby | Storybook | Redux & Redux Persist | Styled Components | Styled Reset Advanced </p>
 
  <a  href="https://gatsby-starter-redux-storybook.netlify.com">
-   <p align="center">
+   <h3 align="center">
     🔗🔗🔗 Preview 🔗🔗🔗
-   </p>
+   </h3>
  </a>
