@@ -11,6 +11,6 @@
 
  <a  href="https://gatsby-starter-redux-storybook.netlify.com">
    <p align="center">
-    🔗 Preview
+    🔗🔗🔗 Preview 🔗🔗🔗
    </p>
  </a>
