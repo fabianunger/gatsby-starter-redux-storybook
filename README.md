@@ -7,7 +7,7 @@
   GatsbyJS Starter: Redux & Storybook
 </h1>
 
-   <p align="center">Gatsby, Storybook, Redux & Redux Persist, Styled Components, Styled Reset Advanced </p>
+   <p align="center">Gatsby | Storybook | Redux & Redux Persist | Styled Components | Styled Reset Advanced </p>
 
  <a  href="https://gatsby-starter-redux-storybook.netlify.com">
    <p align="center">
