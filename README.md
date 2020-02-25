@@ -14,3 +14,8 @@
     🔗🔗🔗 Preview 🔗🔗🔗
    </p>
  </a>
+ 
+ 
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fabianunger/gatsby-starter-redux-storybook)

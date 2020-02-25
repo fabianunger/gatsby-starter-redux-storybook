@@ -17,9 +17,10 @@
     "reset-css"
   ],
   "scripts": {
-    "start": "run-p start:**",
-    "start:gatsby": "gatsby develop -H 0.0.0.0 -o",
-    "start:storybook": "start-storybook -p 9000 -c .storybook",
+    "develop": "run-p develop:**",
+    "develop:gatsby": "gatsby develop -H 0.0.0.0 -o",
+    "develop:storybook": "start-storybook -p 9000 -c .storybook",
+    "storybook": "start-storybook -p 9000 -c .storybook",
     "build": "run-p 'build:!(storybook)'",
     "build:gatsby": "gatsby build",
     "build:storybook": "build-storybook -c .storybook -o storybook",
