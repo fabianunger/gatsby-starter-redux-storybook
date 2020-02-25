@@ -4,9 +4,10 @@ import Layout from '../global/Layout';
 import Image from '../components/Image';
 import SEO from '../components/Seo';
 import Heading from '../components/Heading';
-import Text from '../components/Text';
+import Text from '../components/Paragraph';
 import Page from '../components/Page';
 import Counter from '../components/Counter';
+import Quote from '../components/Quote';
 
 
 const IndexPage = () => (
@@ -15,7 +16,7 @@ const IndexPage = () => (
         <Page>
             <Image/>
             <Heading as={'h1'} content={'gatsby-starter-redux-storybook'}/>
-            <Text content={'Starter'}/>
+            <Quote content={'Starter'}/>
             <Counter/>
         </Page>
     </Layout>

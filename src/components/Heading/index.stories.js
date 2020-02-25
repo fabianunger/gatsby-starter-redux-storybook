@@ -1,15 +1,12 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 
 import Heading from './index';
 
-storiesOf('Heading', module)
-    .add('default', () => (
-        <Heading content={'Heading'}/>
-    ))
-    .add('gray', () => (
-    <Heading content={'Heading'} color={'gray'}/>
-))
-    .add('black', () => (
-    <Heading content={'Heading'} color={'black'}/>
-));
+export default {
+    title: 'Typography/Heading',
+    component: Heading,
+};
+
+export const Default = () => <Heading/>;
+export const LightGray = () => <Heading color={'lightgray'}/>;
+export const Green = () => <Heading color={'green'}/>;

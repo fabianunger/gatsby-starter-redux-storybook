@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const TextWrapper = styled.h1`
+const QuoteWrapper = styled.h1`
   font-size: 14px;
   color: #aaa;
   margin-top: 12px;
@@ -8,4 +8,4 @@ const TextWrapper = styled.h1`
   text-transform: uppercase;
 `;
 
-export { TextWrapper };
+export { QuoteWrapper };
