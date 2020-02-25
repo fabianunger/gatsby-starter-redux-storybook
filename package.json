@@ -26,7 +26,6 @@
     "build": "run-p 'build:!(storybook)'",
     "build:gatsby": "gatsby build",
     "build:storybook": "build-storybook -c .storybook -o storybook",
-    "build-storybook": "build-storybook -c .storybook -o storybook",
     "serve": "gatsby serve -o -p 8080",
     "clean": "gatsby clean"
   },
