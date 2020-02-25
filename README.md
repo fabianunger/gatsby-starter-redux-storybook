@@ -6,16 +6,10 @@
 
  ## GatsbyJS Starter: Redux & Storybook
  
- 🔗 [Check out the Preview](https://gatsby-starter-redux-storybook.netlify.com)
-   
-
- ## 📒 Storybook
+ Gatsby | Storybook | Redux & Redux Persist | Styled Components | Styled Reset Advanced
  
- Storybook Preview: 
- [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://gatsby-starter-redux-storybook-stories.netlify.com/)
-                                                                
-
- 
+ [Gatsby Starter Preview](https://gatsby-starter-redux-storybook.netlify.com) 🔗 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://gatsby-starter-redux-storybook-stories.netlify.com/)
+                                                                                  
  ## 🚀 Quick start
  
      Use the Gatsby CLI to create a new site, specifying the default starter.
