@@ -98,9 +98,9 @@ To deploy the site on netlify enter the following under the **`Build settings`**
 
 ### Storybook
 
-**`Build command`**: yarn build:storybook
+**`Build command:`**    yarn build:storybook
 
-**`Publish directory`**: storybook
+**`Publish directory:`**    storybook
 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fabianunger/gatsby-starter-redux-storybook)
