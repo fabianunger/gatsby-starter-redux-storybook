@@ -4,11 +4,11 @@
   </a>
 </p>
 
- ## GatsbyJS Starter: Redux & Storybook
- 
+ ## GatsbyJS Starter: Redux & Storybook [Demo](https://gatsby-starter-redux-storybook.netlify.com) & [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://gatsby-starter-redux-storybook-stories.netlify.com/)
+  
  Gatsby | Storybook | Redux & Redux Persist | Styled Components | Styled Reset Advanced
  
- [Gatsby Starter Preview](https://gatsby-starter-redux-storybook.netlify.com) 🔗 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://gatsby-starter-redux-storybook-stories.netlify.com/)
+ 
                                                                                   
  ## 🚀 Quick start
  
