@@ -38,6 +38,7 @@
      ├── .storybook
      ├── src
      ├──── __stories__
+     ├──── _store
      ├── .gitignore
      ├── .eslintrc.yml
      ├── gatsby-browser.js
@@ -56,6 +57,8 @@
  2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
  
  2.1  **`/src/__stories__`**: This directory will contain all of the stories, find out more about [storybook](https://storybook.js.org/)
+ 
+ 2.2  **`/src/_store`**: This directory contains the redux store and configuration, find out more about [redux](https://redux.js.org/introduction/getting-started) and [react-redux](https://react-redux.js.org/introduction/quick-start)
  
  3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
  
