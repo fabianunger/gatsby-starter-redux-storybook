@@ -20,16 +20,8 @@
      yarn start || yarn develop
      ```
  
- 1.  **Start developing.**
- 
-     Navigate into your new site’s directory and start it up.
- 
-     ```shell
-     cd my-default-starter/
-     gatsby develop
-     ```
- 
- 1.  **Open the source code and start editing!**
+
+ **Open the source code and start editing!**
  
      Your site is now running at `http://localhost:8000`!
      The storybook will be running at `http://localhost:9000`!
@@ -95,5 +87,18 @@
  - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
+
+To deploy the site on netlify enter the following under the **`Build settings`**  of the project:
+
+### Gatsby Site
+
+**`Build command`**: yarn build
+**`Publish directory`**: public
+
+### Storybook
+
+**`Build command`**: yarn build:storybook
+**`Publish directory`**: storybook
+
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fabianunger/gatsby-starter-redux-storybook)
