@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { HeadingWrapper } from './Heading.style';
 
-import { ParagraphWrapper } from './index.style';
-
-const Paragraph = ({ content, ...props }) => (
-    <ParagraphWrapper {...props}>{content}</ParagraphWrapper>
+const Heading = ({ content, ...props }) => (
+    <HeadingWrapper {...props}>{content}</HeadingWrapper>
 );
 
-export default Paragraph;
+export default Heading;
 
-Paragraph.propTypes = {
+Heading.propTypes = {
     content: PropTypes.string,
-    as: PropTypes.string,
+    as: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
+    color: PropTypes.string,
     fontFamily: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.number,
@@ -49,7 +49,9 @@ Paragraph.propTypes = {
     ]),
 };
 
-Paragraph.defaultProps = {
-    as: 'p',
-    content: 'Lorem ipsum'
+Heading.defaultProps = {
+    as: 'h2',
+    fontWeight: 'bold',
+    color: '#555',
+    content: 'Heading'
 };

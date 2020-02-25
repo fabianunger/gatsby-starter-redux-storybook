@@ -5,7 +5,10 @@ const QuoteWrapper = styled.h1`
   color: #aaa;
   margin-top: 12px;
   letter-spacing: 10px;
+  line-height: 1.5;
   text-transform: uppercase;
+  max-width: 450px;
+  text-align: left;
 `;
 
 export { QuoteWrapper };

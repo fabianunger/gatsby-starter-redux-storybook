@@ -6,4 +6,4 @@ const HeadingWrapper = styled.h1`
   margin-top: 60px;
 `;
 
-export  { HeadingWrapper};
+export { HeadingWrapper };

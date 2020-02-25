@@ -2,7 +2,7 @@ import React from 'react';
 import { addDecorator } from '@storybook/react';
 import ReduxWrapper from '../src/_store/config';
 import styled from 'styled-components';
-import GlobalStyle from '../src/global/GlobalStyle';
+import GlobalStyle from '../src/globalStyles/GlobalStyle';
 
 const StoryWrapper = styled.div`
   display: flex;

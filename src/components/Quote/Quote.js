@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { QuoteWrapper } from './index.style';
+import { QuoteWrapper } from './Quote.style';
 
 const Quote = ({ content, ...props }) => (
     <QuoteWrapper {...props}>{content}</QuoteWrapper>
