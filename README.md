@@ -12,19 +12,18 @@
                                                                                   
  ## 🚀 Quick start
  
-     Use the Gatsby CLI to create a new site, specifying the default starter.
- 
-     ```shell
+  
      gatsby new my-gatsby-site https://github.com/fabianunger/gatsby-starter-redux-storybook
      cd my-gatsby-site
      yarn start || yarn develop
-     ```
+  
  
 
  **Open the source code and start editing!**
  
-     Your site is now running at `http://localhost:8000`!
-     The storybook will be running at `http://localhost:9000`!
+     Your site is now running at `http://localhost:8000`
+     
+     The storybook will be running at `http://localhost:9000`
  
      _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
  
