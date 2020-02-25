@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageWrapper } from './index.style';
+import { PageWrapper } from './Page.style';
 
 const Page = ({ children }) => (
     <PageWrapper>{children}</PageWrapper>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { HeadingWrapper } from './index.style';
+import { HeadingWrapper } from './Heading.style';
 
 const Heading = ({ content, ...props }) => (
     <HeadingWrapper {...props}>{content}</HeadingWrapper>
@@ -52,5 +52,6 @@ Heading.propTypes = {
 Heading.defaultProps = {
     as: 'h2',
     fontWeight: 'bold',
-    color: '#555'
+    color: '#555',
+    content: 'Heading'
 };

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { createStore } from 'redux';
 import { persistReducer, persistStore } from 'redux-persist';
+import { createStore } from 'redux';
 import storage from 'redux-persist/lib/storage';
-import rootReducer from '../_store/reducers';
+import rootReducer from './reducers';
 
 
 export default ({ element }) => {
+
     const persistConfig = {
         key: 'root',
         storage,
@@ -17,9 +18,8 @@ export default ({ element }) => {
     };
 
     const persistedReducer = persistReducer(persistConfig, rootReducer);
-
-    let store = createStore(persistedReducer);
-    let persistor = persistStore(store);
+    const store = createStore(persistedReducer);
+    const persistor = persistStore(store);
 
     return (
         <Provider store={store}>
