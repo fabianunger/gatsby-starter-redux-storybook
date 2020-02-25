@@ -10,3 +10,5 @@ yarn-error.log
 
 /.idea/
 .idea/workspace.xml
+
+.out
