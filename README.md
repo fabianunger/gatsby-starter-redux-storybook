@@ -93,11 +93,13 @@ To deploy the site on netlify enter the following under the **`Build settings`**
 ### Gatsby Site
 
 **`Build command`**: yarn build
+
 **`Publish directory`**: public
 
 ### Storybook
 
 **`Build command`**: yarn build:storybook
+
 **`Publish directory`**: storybook
 
 
