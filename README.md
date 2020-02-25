@@ -11,10 +11,10 @@
 
  ## 📒 Storybook
  
- Check out the Storybook of this Gatsby Starter
- 
+ Storybook Preview: 
  [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://gatsby-starter-redux-storybook-stories.netlify.com/)
-  
+                                                                
+
  
  ## 🚀 Quick start
  
