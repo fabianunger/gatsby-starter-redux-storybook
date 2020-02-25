@@ -14,7 +14,8 @@
     "storybook",
     "eslint",
     "styled-components",
-    "reset-css"
+    "reset-css",
+    "nelify"
   ],
   "scripts": {
     "start": "run-p develop:**",
