@@ -11,14 +11,19 @@
  
                                                                                   
  ## 🚀 Quick start
- 
-  
+
      gatsby new my-gatsby-site https://github.com/fabianunger/gatsby-starter-redux-storybook
      cd my-gatsby-site
-     yarn start || yarn develop
-  
+     
+  ###  start developing, run
+       gatsby develop && yarn storybook
+     
+###  or you can use a shorter from to run both, the gatsby site and the storybook, with either npm or yarn
+       npm run start
+       - or -
+       yarn start 
  
-
+       
  **Open the source code and start editing!**
  
      Your site is now running at `http://localhost:8000`
